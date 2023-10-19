@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "GitH-Correct",
+  "version": "1.0",
+  "description": "Autocorrects 'Github' to 'GitHub' across the web. A public service for your sanity.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "24": "icon24.png",
+      "32": "icon32.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "homepage_url": "https://your-website-or-github-repo.com"
+}
