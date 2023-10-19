@@ -1,5 +1,5 @@
 # GitH-Correct Chrome Extension
-![](/icon128.png)
+![](/GitH-Correct-Demo.gif)
 
 Ever scrolled through a website and stumbled upon "Github" written like it's some casual acquaintance and not the code repository deity that it is? Oh, the horror! If you've ever wished you could file a pull request against the entire internet to fix this blasphemous typo, your prayers (or rants) have been answered. 
 
